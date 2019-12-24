@@ -43,6 +43,7 @@ namespace NeuronProg
 
         public void SetInput(List<double> input)
         {
+            inputs = new List<double>();
             for (int i = 0; i < inputs.Count; i++)
             {
                 inputs[i] = input[i];
