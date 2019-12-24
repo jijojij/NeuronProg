@@ -50,8 +50,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.xlv = new System.Windows.Forms.ListBox();
+            this.ylv = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.mnk_k = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -254,10 +254,10 @@
             this.chart1.TabIndex = 13;
             this.chart1.Text = "chart1";
             // 
-            // listBox1
+            // xlv
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
+            this.xlv.FormattingEnabled = true;
+            this.xlv.Items.AddRange(new object[] {
             "-2,9",
             "-2,2",
             "-1,5",
@@ -278,15 +278,15 @@
             "9",
             "9,7",
             "10,4"});
-            this.listBox1.Location = new System.Drawing.Point(12, 15);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(46, 277);
-            this.listBox1.TabIndex = 14;
+            this.xlv.Location = new System.Drawing.Point(12, 15);
+            this.xlv.Name = "xlv";
+            this.xlv.Size = new System.Drawing.Size(46, 277);
+            this.xlv.TabIndex = 14;
             // 
-            // listBox2
+            // ylv
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Items.AddRange(new object[] {
+            this.ylv.FormattingEnabled = true;
+            this.ylv.Items.AddRange(new object[] {
             "-30,77",
             "-29,85",
             "-29,48",
@@ -307,10 +307,10 @@
             "-10,98",
             "-9,53",
             "-9,95"});
-            this.listBox2.Location = new System.Drawing.Point(64, 15);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(46, 277);
-            this.listBox2.TabIndex = 15;
+            this.ylv.Location = new System.Drawing.Point(64, 15);
+            this.ylv.Name = "ylv";
+            this.ylv.Size = new System.Drawing.Size(46, 277);
+            this.ylv.TabIndex = 15;
             // 
             // button1
             // 
@@ -367,8 +367,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1216, 438);
-            this.Controls.Add(this.listBox2);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.ylv);
+            this.Controls.Add(this.xlv);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -410,8 +410,8 @@
         private System.Windows.Forms.TextBox mnk_k;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.ListBox xlv;
+        private System.Windows.Forms.ListBox ylv;
     }
 }
 
