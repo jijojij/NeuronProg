@@ -81,9 +81,9 @@
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Location = new System.Drawing.Point(933, 15);
+            this.groupBox2.Location = new System.Drawing.Point(665, 206);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(257, 297);
+            this.groupBox2.Size = new System.Drawing.Size(247, 297);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Персептрон";
@@ -177,7 +177,7 @@
             // 
             this.p_b.Location = new System.Drawing.Point(43, 247);
             this.p_b.Name = "p_b";
-            this.p_b.Size = new System.Drawing.Size(57, 20);
+            this.p_b.Size = new System.Drawing.Size(198, 20);
             this.p_b.TabIndex = 6;
             // 
             // label8
@@ -193,7 +193,7 @@
             // 
             this.p_k.Location = new System.Drawing.Point(43, 218);
             this.p_k.Name = "p_k";
-            this.p_k.Size = new System.Drawing.Size(57, 20);
+            this.p_k.Size = new System.Drawing.Size(198, 20);
             this.p_k.TabIndex = 6;
             // 
             // label7
@@ -208,7 +208,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 19);
+            this.label6.Location = new System.Drawing.Point(107, 16);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(53, 13);
             this.label6.TabIndex = 6;
@@ -216,7 +216,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(15, 159);
+            this.button2.Location = new System.Drawing.Point(88, 169);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(85, 31);
             this.button2.TabIndex = 1;
@@ -234,7 +234,7 @@
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Location = new System.Drawing.Point(665, 15);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(247, 297);
+            this.groupBox1.Size = new System.Drawing.Size(247, 167);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "МНК";
@@ -242,7 +242,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 19);
+            this.label5.Location = new System.Drawing.Point(107, 16);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 13);
             this.label5.TabIndex = 5;
@@ -252,7 +252,7 @@
             // 
             this.mnk_b.Location = new System.Drawing.Point(44, 126);
             this.mnk_b.Name = "mnk_b";
-            this.mnk_b.Size = new System.Drawing.Size(57, 20);
+            this.mnk_b.Size = new System.Drawing.Size(197, 20);
             this.mnk_b.TabIndex = 4;
             // 
             // label4
@@ -277,12 +277,12 @@
             // 
             this.mnk_k.Location = new System.Drawing.Point(44, 96);
             this.mnk_k.Name = "mnk_k";
-            this.mnk_k.Size = new System.Drawing.Size(57, 20);
+            this.mnk_k.Size = new System.Drawing.Size(197, 20);
             this.mnk_k.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(16, 48);
+            this.button1.Location = new System.Drawing.Point(88, 49);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 31);
             this.button1.TabIndex = 0;
@@ -296,13 +296,13 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(140, 12);
+            this.chart1.Location = new System.Drawing.Point(116, 12);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(488, 473);
+            this.chart1.Size = new System.Drawing.Size(534, 504);
             this.chart1.TabIndex = 13;
             this.chart1.Text = "chart1";
             // 
@@ -368,7 +368,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1216, 585);
+            this.ClientSize = new System.Drawing.Size(931, 585);
             this.Controls.Add(this.ylv);
             this.Controls.Add(this.xlv);
             this.Controls.Add(this.chart1);

@@ -26,6 +26,7 @@ namespace NeuronProg
             chart1.Series.Add("МНК");
             chart1.Series.Add("Персептрон");
             chart1.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            chart1.Series[0].Color = Color.Blue;
             chart1.Series[1].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             chart1.Series[2].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
         }
