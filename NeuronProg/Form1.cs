@@ -32,6 +32,8 @@ namespace NeuronProg
 
         private void button2_Click(object sender, EventArgs e)
         {
+            double low_y = new double();
+            double hi_y = new double();
             List<KeyValuePair<List<double>, double>> td = new List<KeyValuePair<List<double>, double>>();
             int n = xlv.Items.Count;
             double low_x = 1e16;
@@ -56,10 +58,10 @@ namespace NeuronProg
 
             List<double> _ = new List<double> { low_x };
             p.SetInput(_);
-            double low_y = p.Evaluate();
+            low_y = p.Evaluate();
             _ = new List<double> { hi_x };
             p.SetInput(_);
-            double hi_y = p.Evaluate();
+            hi_y = p.Evaluate();
             chart1.Series[2].Points.Clear();
             chart1.Series[2].Points.AddXY(low_x, low_y);
             chart1.Series[2].Points.AddXY(hi_x, hi_y);

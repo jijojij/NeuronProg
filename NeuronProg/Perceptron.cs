@@ -11,8 +11,8 @@ namespace NeuronProg
         double eps;
         double ro;
         double bias;
-        List<double> weights;
-        List<double> inputs;
+        List<double> weights = new List<double>();
+        List<double> inputs = new List<double>();
 
         public Perceptron(int n, double r, double eps)
         {
@@ -44,9 +44,9 @@ namespace NeuronProg
         public void SetInput(List<double> input)
         {
             inputs = new List<double>();
-            for (int i = 0; i < inputs.Count; i++)
+            for (int i = 0; i < input.Count; i++)
             {
-                inputs[i] = input[i];
+                inputs.Add( input[i]);
             }
         }
 
@@ -94,6 +94,8 @@ namespace NeuronProg
                         CorrectWeights(expected - result);
                     }
                 }
+                if (can)
+                    return;
             }
         }
     }
